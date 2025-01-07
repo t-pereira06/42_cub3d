@@ -1,11 +1,11 @@
 # 42-Cub3D Project
 
-Welcome to the Cub3D project, a recreation of the nostalgic ambiance from the original Wolfenstein and DOOM games. Using the MiniLibX (MLX) library and perspective rendering techniques, Cub3D brings back the retro gaming experience. Please note that Cub3D does not feature true 3D graphics but aims to recapture the essence of those iconic games.
+Welcome to the **Cub3D** project, a tribute to the nostalgic ambiance of classic games like **Wolfenstein 3D** and **DOOM**. Built using the **MiniLibX (MLX)** library and perspective rendering techniques, Cub3D recreates the retro gaming experience. While it doesn't feature true 3D graphics, it captures the spirit and gameplay essence of these iconic titles.  
 
 ## Project Completion and Submission
 
-- **Completion Date:** October 2nd, 2023
-- **Project Submission:** Successfully submitted with a score of 125/125
+- **Completion Date:** October 2nd, 2023  
+- **Project Score:** 125/125
 
 ![Screenshot from 2023-10-02 15-22-43](https://github.com/andremvsramos/42-Cub3d/assets/115324164/11e7b98c-71af-477e-bc50-5d9c422f5775)
 
@@ -28,13 +28,13 @@ Welcome to the Cub3D project, a recreation of the nostalgic ambiance from the or
 
 ## Introduction
 
-Cub3D is an ongoing project that aims to recreate the 'immersive' gameplay experience of the original Wolfenstein and DOOM games, utilizing MLX and perspective rendering techniques to achieve an atmosphere that pays homage to the retro classics.
+**Cub3D** is part of the **42 School curriculum**, designed to push your understanding of C programming and computer graphics. It focuses on using **perspective rendering techniques** and the **MiniLibX (MLX)** library to create a pseudo-3D experience inspired by retro classics.  
 
 ## Features
 
- - Cub3D utilizes perspective rendering techniques to provide a sense of depth in a 2D environment, delivering an experience reminiscent of the original games.
- - Experience familiar textures and environments through texture mapping, capturing the visual essence of the classic games.
- - Cub3D employs a map configuration system using `.cub` files as input. These files specify elements like textures, colors, and the layout of the game world.
+- **Perspective Rendering:** Simulates depth in a 2D environment for a 3D-like experience.  
+- **Texture Mapping:** Brings environments to life with visually accurate textures, paying homage to retro games.  
+- **Custom Map Configurations:** Uses `.cub` files to define textures, colors, and the layout of the game world.
 
 ## Getting Started
 
