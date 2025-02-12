@@ -22,4 +22,4 @@ jobs:
 
       - name: Run Norminette inside Container
         run: |
-          docker run --rm -v ${{ github.workspace }}:/app/cub3d ghcr.io/t-pereira06/ubuntu-norminette:latest norminette /app/cub3d || exit 1
+          docker run --rm -v ${{ github.workspace }}:/app/cub3d ghcr.io/t-pereira06/ubuntu-norminette:latest norminette /app/cub3d
