@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   info_parser.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andvieir <andvieir@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: tsodre-p <tsodre-p@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/14 15:45:39 by andvieir          #+#    #+#             */
-/*   Updated: 2023/10/02 14:55:56 by andvieir         ###   ########.fr       */
+/*   Updated: 2025/02/12 22:54:35 by tsodre-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -130,10 +130,11 @@ int	has_valid_info2(t_Cub3d *cub, char *line)
  *
  * @return 0 if the map is valid, 1 if the map is invalid or an error occurs.
  */
-static int ft_check_d(char *line, int fd)
+static int	ft_check_d(char *line, int fd)
 {
 	int		i;
 	bool	is_map;
+
 	is_map = false;
 	while (line)
 	{
